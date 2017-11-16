@@ -1,0 +1,20 @@
+{
+  "name": "xstream-from-callback",
+  "version": "1.0.0",
+  "description": "Convert a Node.js-style callback API to xstream",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "prepublishOnly": "npm run compile"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.30",
+    "typescript": "2.5.x"
+  },
+  "dependencies": {
+    "xstream": "10.x || 11.x"
+  }
+}

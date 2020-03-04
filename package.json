@@ -4,6 +4,7 @@
   "description": "Convert a Node.js-style callback API to xstream",
   "main": "index.js",
   "typings": "index.d.ts",
+  "homepage": "https://github.com/staltz/xstream-from-callback",
   "scripts": {
     "compile": "tsc",
     "prepublishOnly": "npm run compile"

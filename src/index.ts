@@ -19,7 +19,9 @@ function xsFromCallback<T>(api: CBAPI): xsAPI<T> {
             return;
           }
           replied = true;
-          if (err) {
+          if (err === true) {
+            listener.complete();
+          } else if (err) {
             listener.error(err);
           } else {
             listener.next(data);
